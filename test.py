@@ -1,5 +1,5 @@
 import unittest
-from app import App
+#from app import App
 
 class TestSuite(unittest.TestCase):
 
@@ -14,3 +14,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
