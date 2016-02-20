@@ -11,7 +11,8 @@ python:
  # - pypy
 env:
  global:
-   - secure: kW8eVLy60i7KEHuFEYSwJ20ngib47ag22t/ugYHO6nOaCwnfcnywy9c6Tisojh6ur0dKy396ZP3DxxNR5Go06qiHP3q555OD+rqE+Au0vwVw8GiiXrWvD4zBmGzfQwLdq47JVBfZq2QmKMN9ztQb+9WmxVZOTL7GtYEm+hk8WIfN+cDN31it+EvYBZccxaMO+ZRf+KraKW6IkBLo1qhXe/xXvfey/mZbNVw8VnO0kcUzQDhORCVyXJ9nbcWATBR2o+pFLAWlrv4XpQAlGIzdcoYV63K9P4DwKfDY/mgQWzwdNpFwikv/9ZaoSTm6GdNX1TgAHogS75kGdNRaXS+SUQ==
+   - secure: EZAHxKBHlGGwLnURCmZ2PvBc4xv29a0XG4DRY60/p49iL0bvu8pzkitvuOmELO4HjVpXocMQzoVsnaLZ1Elad0kC8lsPPov1emN1YjB/s+tmnGBcXw+mLHHz4d9DO4nnSaY7LWovNZSGoApyZ+R/5l7t+Uo9M/Wup3f/jISL0m6iOJPwG5lQ6dmqzeoIlO2KjjkU8QFV7VMOIkmOb2YrdPESWN5jRfRGsSBUhUttYIR/JEUK3oyPvmA6lfHSX0eGpJN3mpmWNuRuJRCik8R2NU966MZQWjfE4oxrT19EwsWXGh0oSZsjj2xaB0Bho1M5yjbgM/Xh6sZ6KY/F4/qryw==
+   #- secure: kW8eVLy60i7KEHuFEYSwJ20ngib47ag22t/ugYHO6nOaCwnfcnywy9c6Tisojh6ur0dKy396ZP3DxxNR5Go06qiHP3q555OD+rqE+Au0vwVw8GiiXrWvD4zBmGzfQwLdq47JVBfZq2QmKMN9ztQb+9WmxVZOTL7GtYEm+hk8WIfN+cDN31it+EvYBZccxaMO+ZRf+KraKW6IkBLo1qhXe/xXvfey/mZbNVw8VnO0kcUzQDhORCVyXJ9nbcWATBR2o+pFLAWlrv4XpQAlGIzdcoYV63K9P4DwKfDY/mgQWzwdNpFwikv/9ZaoSTm6GdNX1TgAHogS75kGdNRaXS+SUQ==
 
 install:
   - pip install -r requirements.txt
