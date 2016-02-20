@@ -9,7 +9,8 @@ python:
  # - 3.3
  # - 3.4
  # - pypy
-
+env:
+ - secure: kW8eVLy60i7KEHuFEYSwJ20ngib47ag22t/ugYHO6nOaCwnfcnywy9c6Tisojh6ur0dKy396ZP3DxxNR5Go06qiHP3q555OD+rqE+Au0vwVw8GiiXrWvD4zBmGzfQwLdq47JVBfZq2QmKMN9ztQb+9WmxVZOTL7GtYEm+hk8WIfN+cDN31it+EvYBZccxaMO+ZRf+KraKW6IkBLo1qhXe/xXvfey/mZbNVw8VnO0kcUzQDhORCVyXJ9nbcWATBR2o+pFLAWlrv4XpQAlGIzdcoYV63K9P4DwKfDY/mgQWzwdNpFwikv/9ZaoSTm6GdNX1TgAHogS75kGdNRaXS+SUQ==
 
 install:
   - pip install -r requirements.txt
