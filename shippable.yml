@@ -21,7 +21,7 @@ before_script:
   - mkdir -p shippable/codecoverage
 
 script:
-  - echo "$var"
+  - echo $var
   - which python
   - coverage run `which nosetests` test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
   - coverage xml -o shippable/codecoverage/coverage.xml
